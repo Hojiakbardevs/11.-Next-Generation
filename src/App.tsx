@@ -1,12 +1,12 @@
-import { ModeToggle } from "./components/mode-toggle";
+import { Navbar } from "./components/navbar";
 import { ThemeProvider } from "./components/theme-provider";
-import { Button } from "./components/ui/button";
 
 function App() {
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-      <ModeToggle></ModeToggle>
-      <Button>Button</Button>
+      <div className="flex items-center justify-end">
+        <Navbar></Navbar>
+      </div>
     </ThemeProvider>
   );
 }
