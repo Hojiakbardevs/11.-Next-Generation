@@ -6,6 +6,7 @@ function App() {
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
       <div className="flex items-center justify-end">
         <Navbar></Navbar>
+        
       </div>
     </ThemeProvider>
   );
