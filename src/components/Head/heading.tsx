@@ -1,4 +1,4 @@
-import { ButtonEnter } from "../button_enter";
+import { ButtonEnter } from "./button_enter";
 
 export const Heading = () => {
   return (

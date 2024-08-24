@@ -1,4 +1,5 @@
 import { Heading } from "./components/Head/heading";
+import { MainPage } from "./components/Main/main_page";
 import { Navbar } from "./components/navbar";
 import { ThemeProvider } from "./components/theme-provider";
 
@@ -9,6 +10,7 @@ function App() {
         <Navbar></Navbar>
       </div>
       <Heading></Heading>
+      <MainPage></MainPage>
     </ThemeProvider>
   );
 }
