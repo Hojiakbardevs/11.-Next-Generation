@@ -1,6 +1,8 @@
 import { CardElement } from "./CardElement";
 import Card11 from "@/assets/card11.svg";
 import Card12 from "@/assets/card12.svg";
+import Card13 from "@/assets/card13.svg";
+import Card14 from "@/assets/card14.svg";
 
 export const CardsPage = () => {
   return (
@@ -25,6 +27,22 @@ export const CardsPage = () => {
         Everything you need to collaborate tighter, create faster and present
         better.
       </h1>
+      <div className="flex gap-10 justify-center items-center flex-wrap">
+        <CardElement
+        title="Experience"
+        subtitle="Stop clicking and start scrolling."
+        description="Made for any screen and any content with zero detours."
+        smallText="Present hands-off, remote or in person. No broken fonts, video placeholders and missing assets."
+        imageSrc={Card13}
+        />
+        <CardElement
+        title="Management"
+        subtitle="Ultimate control."
+        description="Manage your team, control access and analyse your decks in real-time."
+        smallText="Quickly gain insights and stay up to date with decks that are shared outside of your company."
+        imageSrc={Card14}
+        />
+      </div>
     </div>
   );
 };
