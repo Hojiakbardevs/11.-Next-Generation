@@ -23,7 +23,7 @@ export const CardsPage = () => {
         imageSrc={Card12}></CardElement>
 
     </div>
-      <h1 className="text-8xl leading-[96px]">
+      <h1 className="text-8xl leading-[96px] my-16">
         Everything you need to collaborate tighter, create faster and present
         better.
       </h1>

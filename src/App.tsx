@@ -3,6 +3,7 @@ import { Heading } from "./components/Head/heading";
 import { MainPage } from "./components/Main/main_page";
 import { Navbar } from "./components/navbar";
 import { ThemeProvider } from "./components/theme-provider";
+import { UnderHoodPage } from "./components/UnderHood/under_hood_page";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Heading></Heading>
       <MainPage></MainPage>
       <CardsPage></CardsPage>
+      <UnderHoodPage></UnderHoodPage>
     </ThemeProvider>
   );
 }
