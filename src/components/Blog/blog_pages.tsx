@@ -1,6 +1,7 @@
 import Blog1 from "@/assets/Blog1.png";
 import Blog2 from "@/assets/blog2.png";
 import Blog3 from "@/assets/Blog3.png";
+import { Button } from "../ui/button";
 
 const Blogs = [
     Blog1,
@@ -17,6 +18,7 @@ export const BlogPage = () => {
                 <img src={blog} alt={`Blog ${index + 1}`} />
             ))}
         </div>
+        <Button overss="leftar" variant='secondary'>Read all</Button>
     </div>
   )
 }
