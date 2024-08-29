@@ -1,4 +1,6 @@
 import Frame from '@/assets/Frame.svg'
+import { LogoElements } from './logo_element';
+import { TextCreator } from './text_creator';
 export const MainPage = () => {
   return (
     <div>
@@ -30,6 +32,12 @@ export const MainPage = () => {
       </div>
       <div className='p-10'>
         <img src={Frame} alt="FRAME  IMG" className='w-full' />
+      </div>
+      <div className='p-10'>
+        <LogoElements></LogoElements>
+      </div>
+      <div className='p-10'>
+        <TextCreator></TextCreator>
       </div>
     </div>
   );
