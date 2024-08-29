@@ -1,3 +1,4 @@
+import { BlogPage } from "./components/Blog/blog_pages";
 import { CardsPage } from "./components/Cards/card_page";
 import { Heading } from "./components/Head/heading";
 import { MainPage } from "./components/Main/main_page";
@@ -15,6 +16,7 @@ function App() {
       <MainPage></MainPage>
       <CardsPage></CardsPage>
       <UnderHoodPage></UnderHoodPage>
+      <BlogPage></BlogPage>
     </ThemeProvider>
   );
 }

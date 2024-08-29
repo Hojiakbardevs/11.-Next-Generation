@@ -52,13 +52,13 @@ const Cards = [
 
 export const UnderCards = () => {
   return (
-    <div className="flex justify-start items-center gap-4 flex-wrap p-10">
+    <div className="flex justify-center items-center gap-4 flex-wrap mt-10">
       {Cards.map((card, index) => (
         <div
           key={index}
-          className="flex justify-between items-start flex-col w-60 h-40 rounded-lg bg-neutral-700 p-4"
+          className="flex justify-center gap-4 items-start flex-col w-80 rounded-lg bg-neutral-700 p-4"
         >
-          <img src={card.imageSrc} alt={card.title} />
+          <img src={card.imageSrc} alt={card.title} className="object-cover" />
           <p className="text-base font-normal">{card.title}</p>
           <p className="text-base text-neutral-400 font-normal">{card.describe}</p>
         </div>
